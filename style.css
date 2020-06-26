@@ -1,0 +1,458 @@
+/*GENERAL*/
+@font-face
+{
+	font-family:"Montserrat";
+	src: url("police/Montserrat-Medium.ttf");
+}
+@font-face
+{
+	font-family:"LeHavreLayersPrimary";
+	src: url("police/LeHavreLayersPrimary.otf");
+}
+@font-face
+{
+	font-family:"acherusgrotesque";
+	src: url("police/acherusgrotesque.otf");
+}
+@font-face
+{
+	font-family:"queulatregular";
+	src: url("police/queulatregular.otf");
+}
+body
+{
+	background-image:url("images/background/1.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	font-family:"Montserrat", Verdana;
+	color:black;
+}
+.petit a{display:none;
+	background-color:rgba(241,200,163,0.7);
+	color:black;
+	font-family: "LeHavreLayersPrimary","Montserrat", Verdana;}
+.menu
+{
+	display:flex;
+	border: 1px black solid;
+	justify-content: space-around;
+	background-color: rgba(241,200,163,0.7);
+	font-family: "LeHavreLayersPrimary","Montserrat", Verdana;
+	color:black;
+}
+.menu a
+{
+	background-color: rgba(241,200,163,0.7);
+	font-family: "LeHavreLayersPrimary","Montserrat", Verdana;
+	color:black;
+	width:calc(100%/5);
+	text-align:center;
+	font-size: 1.6em;
+}
+.menu a:hover
+{
+	background-color: rgba(287,184,135,0.7);
+}
+h1
+{
+
+	text-align: center;
+	font-family: "LeHavreLayersPrimary","Montserrat", Verdana;
+	font-size: 4em;
+}
+article
+{
+	background-color: rgba(255,255,255,0.7);
+	font-family: "Montserrat", Verdana;
+	margin: auto;
+	font-size: 18px;
+	overflow:auto;
+	width: 85%;
+	padding:45px;
+}
+.floatleft
+{
+	float:left;
+	margin:30px;
+}
+.floatright
+{
+	float:right;
+}
+.blockcenter
+{
+	display:block;
+	margin:auto;
+}
+figcaption {font-size:0.8em;
+text-align:center;}
+span{text-decoration: underline;}
+footer
+{
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 14px;
+}
+/*ACCUEIL*/
+#accueil {margin-bottom: 2%;}
+#ensavoirplus p {margin:auto;}
+#ensavoirplus .bouton {width: 15%;
+display:inline;
+height:10%;
+background-color:rgba(229,75,75,0.8);
+text-align:center;
+box-sizing:border-box;
+float:right;
+color:white;}
+#ensavoirplus .bouton:hover{background-color:rgba(229,161,75,0.8);}
+#ensavoirplus hr {margin-top:2%;}
+#accueil section{clear:both;}
+.dessous
+{
+	padding:50px;
+	padding-top : 180px;
+	padding-left: 100px;
+	padding-bottom: 200px;
+	clear : left;
+	position:relative;
+	right : 50px;
+}
+/*REPRODUCTION*/
+#reproduction
+{
+	margin-left: 18%;
+	width: 75%;
+}
+#accouplement p
+{
+	width: 75%;
+	margin-top: 50px;
+}
+#oeuf
+{
+	clear:both;
+}
+#oeuf p, #chrysalide p
+{
+	padding-left: 370px;
+}
+#chenille, #papillon
+{
+	clear:both;
+}
+
+#sommaire
+{
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	position:fixed;
+	left: 0px;
+	top:30%;
+	margin:10px;
+	width:15%;
+	font-family: "queulatregular","acherusgrotesque", "Montserrat", Verdana;
+}
+
+/*ESPECE*/
+# img
+{
+	opacity:0.5;
+}
+#espece img:hover
+{
+	opacity:1.0;
+}
+#espece a {text-decoration:none;
+color:black;}
+/*TARGET DE TOUS MES ESPECES*/
+.papillon .description
+{
+	display:none;
+}
+.papillon:target .description
+{
+	display:block;
+	border: 1px black solid;
+	background-color: rgba(255,255,255,0.7);
+	margin:auto;
+	padding : 3em;
+	width: 70%;
+	overflow:auto;
+}
+.papillon#amaryllis:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#apollon:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#argus:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#atlas:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#aurore:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#belargus:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#boarmie:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#bronze:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#CG:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#cblanc:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#citron:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#damier:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#dryas:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#ecaille_martre:target .description img
+{: 100%;
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#ecaille_senecon:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#Feuille_morte:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#Flambe:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#gaze:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#GMC:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#greta:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#GT:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#hachette:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#heliconius:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#idea:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#isabelle:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#jason:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#machaon:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#morio:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#nacre:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#paon_jour:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#paon_nuit:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#papilio:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#lune:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#sylvia:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#pieride:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#sphynx:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#sylvain:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#timandre:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#vulcain:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+.papillon#zeuzere:target .description img
+{
+	opacity:1;
+	width: calc(100%/2);
+}
+/*FAMILLE*/
+#famille li {list-style-type: none;}
+#famille>li:nth-child(odd)::before {content:"► ";}
+.sousfam>li>ul>li::before {content:"♢ ";}
+.sousfam>li:nth-child(odd)::before { content:"▼ ";}
+
+/*RESPONSIVE*/
+@media(max-width:1200px)
+{
+	.menu a{ font-size : 1.2em;
+	width:100%;}
+	#sommaire{display:none;}
+	#reproduction{margin: auto;
+	width:90%; }
+	article{margin:auto;
+	width:90%;}
+	.floatleft{float:none;
+	margin:0px;
+	display:block;
+	margin:auto;}
+	.floatright{float:none;
+	display:block;
+	margin:auto;}
+	#tete img {float:none;
+	margin:auto;}
+	.p1 {padding:0%;
+	padding-right: 0%;
+	padding-top: 0%;
+	position: relative;
+	left: 0px;}
+	.p2 {padding-top:0%;}
+	.dessous{clear:both;
+	padding:0px;
+	position:relative;
+	right : 0px;}
+	#espece img{float:left;
+	margin:3%;}
+	#oeuf p {padding-left:0%;}
+	#chrysalide p {padding-left:0%;}
+	footer~p{width:80%;}
+	footer p{float: left;
+	margin-right:10%;}
+	#ensavoirplus .bouton {width: 25%;}
+}
+@media(max-width:768px)
+{
+	.menu a{ font-size: 0.75em;}
+	img {width:calc(100%/2);}
+	article{width:80%;}
+	#reproduction{width:80%}
+	#espece img{width:calc(100%/4);}
+	#ensavoirplus .bouton {width: 100%;
+	position:relative;
+	bottom:0px;}
+
+}
+@media(max-width:400px)
+{
+	.menu a{ display:none;}
+	h1{font-size:2em;}
+	article{font-size:0.9em;
+	width:70%;}
+	#reproduction{width:70%;}
+	.petit::before{content:"MENU";
+	font-family: "LeHavreLayersPrimary","Montserrat", Verdana;}
+	.petit{	background-color:rgba(241,200,163,0.7);
+	width:100%;
+	margin:auto;
+	text-align:center;}
+	.petit:hover{ background-color: rgba(287,184,135,0.7);}
+	.petit:hover a{display:block;
+	width:100%;
+	margin:auto;
+	float:left;
+	border: 1px black solid;}
+	.petit:hover a:hover{background-color:rgba(287,184,135,0.7);}
+}
